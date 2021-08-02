@@ -70,7 +70,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
           <h2>LEARN ALL ABOUT THICK SKIN</h2>
         </div>
         <div className="youtubevideo" style={{ textAlign: "center", margin: "0 auto" }}>
-          <iframe width="1238" height="696" className="videoframe" src="https://www.youtube.com/embed/o33HSF3ql2E"></iframe>
+          <iframe width="1238" height="696" className="videoframe" src="https://www.youtube.com/embed/o33HSF3ql2E" title="myFrame"></iframe>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './homecss/banner.css'
-import { Image } from '@chakra-ui/react'
-import { Link } from 'react-router-dom'
+//import { Image } from '@chakra-ui/react'
+//import { Link } from 'react-router-dom'
 import bannerData from '../../sitedata.json'
 console.log({bannerData})
 const HomePromotionBannerThird = () => {

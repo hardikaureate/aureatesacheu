@@ -2,13 +2,13 @@ import React, { useContext, useEffect } from "react";
 import './homecss/homeFeaturedProduct.css'
 import { useParams } from 'react-router-dom'
 import { ShopContext } from '../../context/shopContext'
-import Slider from "react-slick";
+//import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import { Image, Button } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 
 const CollectionList = () => {
   const { handle } = useParams()
-  const { fetchAllCollectionProducts, collections, addItemToCheckout } = useContext(ShopContext);
+  const { fetchAllCollectionProducts, collections } = useContext(ShopContext);
   useEffect(() => {
     fetchAllCollectionProducts(handle);
   }, [fetchAllCollectionProducts,handle]);

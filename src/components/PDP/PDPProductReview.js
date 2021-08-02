@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { ShopContext } from "../../context/shopContext";
-import { Box } from "@chakra-ui/react";
+//import { Box } from "@chakra-ui/react";
 import { useParams } from "react-router";
 import "./pdpcss/pdppage.css";
 

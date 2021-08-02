@@ -2,7 +2,6 @@ import React, { useContext } from "react"
 import { ShopContext } from "../context/shopContext"
 import { Link } from "react-router-dom"
 import {
-  Button,
   Drawer,
   DrawerBody,
   DrawerFooter,
@@ -10,8 +9,6 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
-  Grid,
-  Box,
   VStack,
 } from "@chakra-ui/react"
 
