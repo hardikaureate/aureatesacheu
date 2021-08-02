@@ -48,7 +48,7 @@ const ProductPage = () => {
                             </p>
                             <Button mt="3%" className="cartButton" onClick={() => addItemToCheckout(product.variants[0].id, 1)}>
                               Add To Cart
-                            </Button>
+                            </Button>{setProductQuantity}
                             <AddToCart className='cartButton' productId={product.variants[0].id} quantity={productQuantity}/>
                           </div>
                         </div>
