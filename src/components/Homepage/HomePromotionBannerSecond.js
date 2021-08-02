@@ -9,9 +9,9 @@ const HomePromotionBannerSecond = () => {
               <div className="bannerImg">
                 {
                   window.innerWidth > 767 ?
-                  <img src="https://f.shgcdn.com/3225eda2-5406-4b77-8506-bef2b486e678/" alt="image"/>
+                  <img src="https://f.shgcdn.com/3225eda2-5406-4b77-8506-bef2b486e678/" alt="sacheu"/>
                   :
-                  <img src="https://f.shgcdn.com/71aecca4-a7d6-47fc-b199-2dfea57c9902/" alt="image"/>
+                  <img src="https://f.shgcdn.com/71aecca4-a7d6-47fc-b199-2dfea57c9902/" alt="sacheu"/>
                 }
               </div>
               <div className="bannerInfo">

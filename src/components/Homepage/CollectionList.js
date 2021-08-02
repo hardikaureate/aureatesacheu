@@ -49,7 +49,7 @@ const CollectionList = () => {
                 {/* {collection.variants[0].compareAtPrice > collection.variants[0].price ? (<span className="sale">SALE</span>) : (<span></span>)} */}
                 <div className="imageContainer">
                   <Link to={`/collections/${collection.handle}`} key={collection.id} aria-label={`Navigate to ${collection.title} collection page`}>
-                    <Image src={collection.image.src} />
+                    <Image src={collection.image.src} alt="sacheu"/>
                   </Link>
                 </div>
                 <div className="productInfo">
