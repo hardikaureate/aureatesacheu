@@ -1,0 +1,41 @@
+.instaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.instaTitle h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+
+.instaTitle span {
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.codeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1006px) {
+    .instaTitle h2 {
+        font-size: 18px;
+        letter-spacing: 1.8px;
+        margin-bottom: 7px;
+    }
+    .instaTitle span {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+        margin-bottom: 30px;
+    }
+}

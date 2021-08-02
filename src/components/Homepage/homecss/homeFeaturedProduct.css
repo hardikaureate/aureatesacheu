@@ -1,0 +1,38 @@
+/* Featured Products Section CSS */
+
+
+/* .product-listing {
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+} */
+
+.FeaturedProducts .product-listing .itemBox {
+    padding-bottom: 15px;
+}
+
+.FeaturedProducts .slick-slider .slick-dots {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.FeaturedProducts .slick-slider .slick-dots li button {
+    background: #000;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+.FeaturedProducts h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .FeaturedProducts h2 {
+        font-size: 13px;
+    }
+}

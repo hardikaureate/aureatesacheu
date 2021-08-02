@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import Cart from "./components/Cart"
+import Footer from "./components/Footer"
+//import CollectionList from './components/Homepage/CollectionList'
+import CollectionPage from "./pages/CollectionPage"
+import NavBar from "./components/NavBar"
+import NavMenu from "./components/NavMenu"
+import Home from "./pages/Home"
+import ProductPage from "./pages/ProductPage"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import Newapp from "./Newapp"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavBar />
+        NEW Code Push
+        <Cart />
+        <NavMenu />
+        <Switch>
+          <Route path="/products/:handle" exact>
+            <ProductPage />
+          </Route>
+          <Route path="/collections/:handle" exact>
+            <CollectionPage />
+          </Route>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/about" exact>
+            <About />
+          </Route>
+          <Route path="/contact" exact>
+            <Contact />
+          </Route>
+          <Route path="/newapp" exact>
+            <Newapp />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

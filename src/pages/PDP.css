@@ -1,0 +1,187 @@
+body {
+    background-color: floralwhite;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    overflow: hidden;
+    transition: max-height .3s cubic-bezier(1, 0, 1, 0);
+    height: auto;
+    max-height: 9999px
+}
+
+.accordion-item.collapsed {
+    max-height: 0;
+    transition: max-height .35s cubic-bezier(0, 1, 0, 1)
+}
+
+.accordion-title {
+    cursor: pointer;
+    padding: 15px 15px 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    letter-spacing: 1.4px;
+}
+
+.accordion-title::after {
+    content: "";
+    width: 14px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+
+.accordion-title::before {
+    content: "";
+    width: 2px;
+    height: 14px;
+    background: #000;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+}
+
+.accordion-title:hover,
+.accordion-title.open {
+    color: #000
+}
+
+.accordion-title.open::before {
+    opacity: 0;
+}
+
+.accordion-content {
+    padding: 0 0 15px;
+}
+
+.accordion-content ul {
+    list-style-type: none !important;
+}
+
+.accordion-content ul li {
+    padding: 0 0 5px;
+}
+
+.accordion-content ul li::before {
+    content: '';
+    display: inline-block;
+    background: url(https://cdn.shopify.com/s/files/1/0257/7583/3137/files/yes-icon.png?v=1624950255) no-repeat;
+    margin: 0 10px -1px 0;
+    width: 17px;
+    height: 13px;
+}
+
+.accordion-content p {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.accordion-title::before {
+    content: "";
+    width: 2px;
+    height: 14px;
+    background: #000;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+}
+
+.accordion-wrapper {
+    border-bottom: 1px solid #B5B5B5;
+}
+
+.infoAccordion {
+    border-top: 1px solid #B5B5B5;
+    margin-top: 35px;
+}
+
+.klarnaText {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cartgroup .cartInput {
+    width: 130px;
+}
+
+.cartgroup .cart-btn {
+    width: 350px;
+}
+
+.cartgroup {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 480px;
+    justify-content: space-between;
+}
+
+.cartgroup .cartInput {
+    width: 130px;
+}
+
+.cartgroup .cart-btn {
+    width: 350px;
+}
+
+
+/* .cart-btn button {
+    margin: 0;
+    border-radius: 4px;
+    padding: 15px;
+} */
+
+.cartgroup .cart-btn {
+    width: 70%;
+}
+
+
+/* .cart-btn button {
+    padding: 8px 10px;
+    font-size: 13px;
+    line-height: 1.7;
+} */
+
+.atcbtn {
+    background-color: #000 !important;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 3%;
+    text-transform: uppercase;
+}
+
+.cartgroup .cartInput {
+    margin: 0;
+}
+
+.cartgroup .cartInput {
+    width: 195px;
+}
+
+.cartgroup .cartQuantityInput {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+input.cartInputText {
+    border: none;
+    width: 65%;
+    font-size: 17px;
+}
+
+.cartQuantityInput {
+    padding: 10px 10px;
+    background: #fff 0% 0% no-repeat padding-box !important;
+    border: 1px solid #000 !important;
+    border-radius: 4px;
+    opacity: 1;
+}

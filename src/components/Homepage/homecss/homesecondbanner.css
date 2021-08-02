@@ -1,0 +1,72 @@
+.promoBanner {
+    max-width: 1920px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 75px;
+}
+
+.promoBanner .bannerImg {
+    position: relative;
+    height: 100%;
+    display: block;
+}
+
+.promoBanner .bannerImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    object-fit: cover;
+}
+
+.promoBanner .bannerInfo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 100%;
+}
+
+.promoBanner .bannerInfo h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    letter-spacing: 4px;
+    max-width: 500px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+.promoBanner .bannerInfo>div>p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #fff;
+    max-width: 500px;
+}
+
+.promoBanner .bannerInfo .bigButton {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1006px) {
+    .promoBanner {
+        height: 550px;
+    }
+    .promoBanner .bannerInfo {
+        text-align: center;
+    }
+    .promoBanner .bannerInfo h2 {
+        font-size: 24px;
+        letter-spacing: 2.4px;
+        margin: 0 auto 5px;
+        color: #fff;
+    }
+    .promoBanner .bannerInfo>div>p {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 auto 20px;
+    }
+}

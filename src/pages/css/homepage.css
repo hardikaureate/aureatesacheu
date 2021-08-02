@@ -1,0 +1,21 @@
+.featuredCollections .subtitle {
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    display: block;
+}
+
+.featuredCollections h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.relatedProduct h2 {
+    display: none;
+}
+
+.featuredCollections {
+    padding-top: 100px;
+}

@@ -1,0 +1,80 @@
+.pamperYourself {
+    padding: 100px 0 50px;
+}
+
+.pamperYourself h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+
+.pamperYourself span {
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.bannerImg {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.bannerImg>div {
+    padding: 0 20px;
+    width: 50%;
+}
+
+.bannerLink {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bannerLink a {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1006px) {
+    .pamperYourself {
+        padding: 80px 0;
+    }
+    .pamperYourself h2 {
+        text-align: left;
+        font-size: 18px;
+        letter-spacing: 1.8px;
+        margin-bottom: 7px;
+    }
+    .pamperYourself span {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .bannerLink {
+        padding-top: 20px;
+    }
+    .bannerLink a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bannerLink {
+        padding-top: 0;
+    }
+    .bannerImg {
+        margin: 0 0px;
+        display: block;
+    }
+    .bannerImg>div {
+        width: 100%;
+        padding: 0 0 20px;
+    }
+    .bannerImg>div img {
+        width: 100%;
+    }
+}

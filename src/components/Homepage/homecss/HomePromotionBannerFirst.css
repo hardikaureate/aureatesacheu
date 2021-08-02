@@ -1,0 +1,139 @@
+.FeatureBanner {
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #EDE7E2 100%) 0% 0% no-repeat padding-box;
+    padding: 170px 0 165px 0;
+}
+
+.FeatureBannerOne {
+    display: flex;
+    margin: 0 -15px;
+    justify-content: space-between;
+}
+
+.FeatureBannerOne .FeatureInfo {
+    order: 2;
+    transform: translate(0, 130px);
+    width: 50%;
+    padding: 0 15px;
+}
+
+.FeatureBannerOne .FeatureImage {
+    order: 1;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.FeatureBannerTwo {
+    display: flex;
+    margin: -300px 0 0 0;
+    justify-content: space-between;
+}
+
+.FeatureBannerTwo .FeatureInfo {
+    transform: translate(0, 523px);
+    padding-right: 60px;
+    order: 1;
+}
+
+.FeatureBannerTwo .FeatureImage {
+    margin-left: -30px;
+    order: 2;
+}
+
+.FeatureInfo {
+    max-width: 540px;
+}
+
+.bannerTitle {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.bannerDesc p {
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.bannerLink {
+    padding-top: 30px;
+}
+
+.bannerLink a {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1239px) {
+    .FeatureBanner {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .FeatureBannerOne,
+    .FeatureBannerTwo {
+        display: block;
+        margin: 0;
+    }
+    .FeatureBannerOne .FeatureInfo {
+        transform: translate(0, 0);
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+    .bannerLink {
+        padding-top: 0px;
+    }
+    .FeatureBannerOne .FeatureImage {
+        width: 100%;
+        padding: 0px;
+    }
+    .FeatureBannerOne .FeatureImage img {
+        max-width: 50%;
+    }
+    .FeatureBannerTwo {
+        margin: -29% 0 0 0;
+    }
+    .FeatureBannerTwo .FeatureInfo {
+        transform: translate(0, 0);
+        width: 100%;
+        max-width: 100%;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .FeatureBannerTwo .FeatureImage {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    .FeatureBannerTwo .FeatureImage img {
+        max-width: 52%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .FeatureBanner {
+        padding: 50px 0;
+    }
+    .bannerTitle {
+        font-size: 18px;
+        letter-spacing: 1.8px;
+        margin-bottom: 10px;
+    }
+    .bannerDesc p {
+        font-size: 12px;
+        padding-bottom: 20px;
+        line-height: 1.5;
+    }
+    .bannerLink {
+        padding-top: 0;
+    }
+    .bannerLink a {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+    }
+}

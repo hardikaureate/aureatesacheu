@@ -1,0 +1,46 @@
+/* As Seen Logo's CSS */
+
+.featured_in_main {
+    margin: 100px 0 90px;
+}
+
+.asSeenText h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer span {
+    width: 16.666666%;
+}
+
+@media screen and (max-width: 1006px) {
+    .featured_in_main {
+        margin: 80px 0 80px;
+    }
+    .asSeenText h1 {
+        font-size: 24px;
+    }
+    .logoContainer {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .logoContainer span {
+        width: 33.333333%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logoContainer span {
+        width: 50%;
+    }
+}

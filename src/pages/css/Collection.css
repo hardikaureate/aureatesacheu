@@ -1,0 +1,10 @@
+.collection {
+    display: flex !important;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.collection .itemBox {
+    padding: 0 15px 30px;
+    width: 25% !important;
+}

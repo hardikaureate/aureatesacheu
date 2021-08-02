@@ -1,0 +1,164 @@
+{
+    "pdppagedata": {
+        "accordiandata": [{
+                "id": 1,
+                "title": "DETAILS",
+                "content": "Use as part of your cleansing routine or after you’ve applied toner/serum. Start from the center of your face and roll outwards to push stagnant lymph away from the face. Use the bigger side for jaw/forehead/cheeks and the smaller side for eyes/brows. Use for 2 minutes every morning!"
+            },
+            {
+                "id": 2,
+                "title": "DETAILS DATA",
+                "content": "Anti-Bacterial - As opposed to jade and rose quartz, stainless steel is non-porous, which prevents bacteria build-up that can transfer to your skin"
+            },
+            {
+                "id": 3,
+                "title": "INGREDINTS",
+                "content": "Self-cooling - Naturally cold to the touch, you don't even need to put it in the freezer"
+            },
+            {
+                "id": 4,
+                "title": "Silk Roller",
+                "content": "Use the bigger side for jaw/forehead/cheeks and the smaller side for eyes/brows. Use for 2 minutes every morning!"
+            }
+        ],
+        "featureslist": [{
+                "images": {
+                    "src": "images/verified.svg"
+                },
+                "title": "100% SAFE & SECURE CHECKOUT"
+            },
+            {
+                "images": {
+                    "src": "images/clean.svg"
+                },
+                "title": "FAST WORLDWIDE SHIPPING"
+            },
+            {
+                "images": {
+                    "src": "images/return.svg"
+                },
+                "title": "CLEAN MATERIALS & INGREDIENTS"
+            },
+            {
+                "images": {
+                    "src": "images/Group.svg"
+                },
+                "title": "QUICK & EASY RETURNS"
+            }
+        ],
+        "testimonials": [{
+                "images": {
+                    "src": "images/user.png"
+                },
+                "name": "@Maria",
+                "testimonialText": "I ordered this tool from GMA deals and it arrived very quickly within a few days and was packaged quite nicely so the tool was well protected from any shipping damage. The tool is very good quality. It's stainless steel and feels good on your face, very cooling. I have looked at many of these facial rollers and read reviews"
+            },
+            {
+                "images": {
+                    "src": "images/user.png"
+                },
+                "name": "@Chioma",
+                "testimonialText": "This is amazing! Paired with Thick Skin, everything feels so luxurious and moisturized. I also have the beauty roller which is also amazing and super sturdy. My face feels refreshed and relaxed! Self-care on another level!"
+            },
+            {
+                "images": {
+                    "src": "images/user.png"
+                },
+                "name": "@Diane S.",
+                "testimonialText": "First of all, the packaging was beautiful. I love the travel size gua sha. I followed along Sarah's video guide and was amazed at how silky the thick skin felt on my skin. I have oily skin so I was afraid of it being extra heavy but it was perfect! Absorbed nicely into my skin. Absolutely recommend."
+            },
+            {
+                "images": {
+                    "src": "images/user.png"
+                },
+                "name": "@Stefanie",
+                "testimonialText": "I really love this roller! Not only is it whisper quiet but non-porous and it feels oh so good. Cools down super fast. And seems very durable! Some weight behind it. I absolutely love this one!"
+            }
+        ],
+        "homeLogo": [{
+                "images": {
+                    "src": "images/wwd.jpg"
+                }
+            },
+            {
+                "images": {
+                    "src": "images/POOSH.jpg"
+                }
+            },
+            {
+                "images": {
+                    "src": "images/ZOE.jpg"
+                }
+            },
+            {
+                "images": {
+                    "src": "images/HYRAM.jpg"
+                }
+            },
+            {
+                "images": {
+                    "src": "images/Susan.jpg"
+                }
+            },
+            {
+                "images": {
+                    "src": "images/JAMES.jpg"
+                }
+            }
+        ],
+        "thirdBanner": [{
+                "images": {
+                    "src": "images/tbanner1.png"
+                }
+            },
+            {
+                "images": {
+                    "src": "images/tbanner2.png"
+                }
+            }
+        ],
+        "HomeBanner": [{
+                "images": {
+                    "src": "https://f.shgcdn.com/473d827a-dba6-4601-a76f-f9e06aba078f/"
+                },
+                "title": "Introducing Thick Skin",
+                "testimonialText": "What does THICK SKIN feel like? Imagine the moisturizing properties of an oil put into a silky smooth serum that absorbs into your skin perfectly.",
+                "link": "https://sacheustore.myshopify.com/admin/products?selectedView=all"
+            },
+            {
+                "images": {
+                    "src": "images/hslider2.jpg"
+                },
+                "title": "Introducing Thick Skin",
+                "testimonialText": "What does THICK SKIN feel like? Imagine the moisturizing properties of an oil put into a silky smooth serum that absorbs into your skin perfectly.",
+                "link": "https://sacheustore.myshopify.com/admin/collections"
+            },
+            {
+                "images": {
+                    "src": "images/hslider3.jpg"
+                },
+                "title": "Introducing Thick Skin",
+                "testimonialText": "What does THICK SKIN feel like? Imagine the moisturizing properties of an oil put into a silky smooth serum that absorbs into your skin perfectly.",
+                "link": "https://sacheustore.myshopify.com/admin/collections/272692543674"
+            }
+        ],
+        "PromotionFirstBanner": [{
+            "images": {
+                "src": "images/hpfbanner1.png"
+            },
+            "bannerTitle": "SACHEU BEAUTY",
+            "bannerDesc": "SACHEU Beauty is a data-driven brand that uses only efficacious ingredients that directly improve skin health (whether they be naturally sourced or lab created).",
+            "bannerDesc1": "We identify effective products and ingredients that are being overlooked by brands in the beauty space, and aim to provide amazing products that allow consumers to complete their skincare routines.",
+            "bannerLink": "https://sacheustore.myshopify.com/"
+        }],
+        "PromotionFirstSecBanner": [{
+            "images": {
+                "src": "images/hpfbanner2.png"
+            },
+            "bannerTitle": "WHY STAINLESS STEEL?",
+            "bannerDesc": "As opposed to traditional jade and quartz stones which have huge environmental footprints, stainless steel is made from recycled material and is itself 100% recyclable, giving it a very eco-friendly footprint. (our packaging is also made with recycled FSC cardboard).",
+            "bannerDesc1": "Additionally, unlike jade and quartz stones, stainless steel is non-porous which means there are no risks of harboring bacteria and spreading it across your skin during your skincare routine. Stainless Steel is the way to go, for your skin and the planet.",
+            "bannerLink": "https://shopify.github.io/js-buy-sdk/"
+        }]
+    }
+}

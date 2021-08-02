@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    color: #455;
+    line-height: 1.5;
+    font-family: "Muli", sans-serif;
+    background-color: blueviolet;
+    background-image: url('https://eatit.netlify.app/static/media/bg.e02a0393.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul,
+ol {
+    padding-left: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size: 1.9em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+.featuredImage {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    height: 60px;
+    line-height: 60px;
+    background: #1b93d7;
+    text-align: center;
+    color: #fff;
+}
+
+.metainfo {
+    background: #f0fff0;
+    padding: 10px;
+}
+
+.bio {
+    padding: 10px;
+    background: #000;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 70%;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.logo {
+    line-height: 60px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+main {
+    background-image: url('https://eatit.netlify.app/static/media/bg.e02a0393.png');
+}
+
+main .wrapper {
+    padding: 50px 15px;
+}
+
+.post {
+    padding: 50px;
+    border-radius: 5%;
+    margin-bottom: 50px;
+    background-color: #fff;
+    box-shadow: #1b93d7 0px 0px 0px 3px inset, rgb(255 255 255) 10px -10px 0px -3px, rgb(31 193 27) 10px -10px, rgb(255 255 255) 20px -20px 0px -3px, rgb(255 85 85) 20px -20px;
+}
+
+.post img {
+    display: block;
+    width: 100%;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    background: #4831d4;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ccf381;
 }
