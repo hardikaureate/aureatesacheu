@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Cart from "./components/Cart"
 import Footer from "./components/Footer"
 //import CollectionList from './components/Homepage/CollectionList'
-import CollectionPage from "./pages/CollectionPage"
+//import CollectionPage from "./pages/CollectionPage"
 import NavBar from "./components/NavBar"
 import NavMenu from "./components/NavMenu"
 import Home from "./pages/Home"
@@ -23,9 +23,9 @@ function App() {
           <Route path="/products/:handle" exact>
             <ProductPage />
           </Route>
-          <Route path="/collections/:handle" exact>
+          {/* <Route path="/collections/:handle" exact>
             <CollectionPage />
-          </Route>
+          </Route> */}
           <Route path="/" exact>
             <Home />
           </Route>

@@ -31,7 +31,7 @@ const Cart = () => {
           <DrawerHeader>Your Shopping Cart</DrawerHeader>
 
           <DrawerBody>
-            {checkout.lineItems.length ? checkout.lineItems.map(item => (
+            {checkout.lineItems ? checkout.lineItems.map(item => (
               
                 <Grid templateColumns="repeat(4, 1fr)" gap={1} key={item.id}>
                     <Flex alignItems="center" justifyContent="center">
