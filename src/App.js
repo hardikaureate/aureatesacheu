@@ -9,7 +9,7 @@ import Home from "./pages/Home"
 import ProductPage from "./pages/ProductPage"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
-import Newapp from "./Newapp"
+//import Newapp from "./Newapp"
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
             <Contact />
           </Route>
           <Route path="/newapp" exact>
-            <Newapp />
+            {/* <Newapp /> */}
           </Route>
         </Switch>
         <Footer />
