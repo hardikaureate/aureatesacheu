@@ -8,7 +8,7 @@ import NavMenu from "./components/NavMenu"
 import Home from "./pages/Home"
 import ProductPage from "./pages/ProductPage"
 //import About from "./pages/About"
-import Contact from "./pages/Contact"
+//import Contact from "./pages/Contact"
 import Newapp from "./Newapp"
 import PDPContent from "./PDPContent"
 
@@ -33,9 +33,9 @@ function App() {
           {/* <Route path="/about" exact>
             <About />
           </Route> */}
-          <Route path="/contact" exact>
+          {/* <Route path="/contact" exact>
             <Contact />
-          </Route>
+          </Route> */}
           <Route path="/newapp" exact>
             <Newapp />
           </Route>
