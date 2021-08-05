@@ -27,6 +27,7 @@ const NavMenu = () => {
             <Link to="/">FACIAL ROLLER </Link>
             <Link to="/about">About</Link>
             <Link to="/newapp">React with Contentful</Link>
+            <Link to="/pdpcont">React with pdpcont</Link>
           </VStack>
         </DrawerBody>
 
