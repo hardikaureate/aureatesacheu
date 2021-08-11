@@ -93,7 +93,7 @@ const Post = ({ article }) => {
     sacheuLocation,
     mobileno,
     demodata,
-    mylocation,
+    //mylocation,
     sacheuref,
     //sacheuLocationFrameID,
   } = article.fields;
