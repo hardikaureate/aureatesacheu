@@ -105,7 +105,7 @@ const Post = ({ article }) => {
         <h2>
           <strong>Company: </strong>
           {company}
-          <iframe src={mylocation} style={{ border: "0", width: "100%", height: "450px" }}></iframe>
+          {/* <iframe src={mylocation} style={{ border: "0", width: "100%", height: "450px" }}></iframe> */}
         </h2>
         <h2>
           <strong>Language: </strong>
