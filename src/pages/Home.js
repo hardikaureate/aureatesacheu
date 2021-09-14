@@ -14,7 +14,7 @@ import HomeSlider from '../components/Homepage/HomeSlider'
 import HomePromotionBannerSecond from '../components/Homepage/HomePromotionBannerSecond'
 import HomePromotionBannerFirst from '../components/Homepage/HomePromotionBannerFirst'
 import HomeCustomerLove from '../components/Homepage/HomeCustomerLove'
-
+import SkeletFunc from '../components/Homepage/SkeletFunc'
 
 const Home = () => {
 
@@ -97,6 +97,7 @@ const Home = () => {
             <PDPRelatedProduct />
           </div>
         </div>
+        <SkeletFunc />
       </Box>
 
     </>
