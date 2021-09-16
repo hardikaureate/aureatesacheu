@@ -86,7 +86,7 @@ const Home = () => {
           heading="FUTURES WITHOUT VIOLENCE" text="Empowering women is part of SACHEU Beauty's core values. 
                 Our founder Sarah Cheung is an abuse survivor herself. SACHEU Beauty is committed to helping end and prevent domestic violence, sexual violence and abuse. 
 
-                Through our partnership with Futures Without Violence, 
+                
                 we are donating a portion of our profits to support their ground breaking programs and 
                 campaigns that empower individuals and organizations working towards keeping women and children safe around the world." /> */}
         <HomePromotionBannerFirst />
