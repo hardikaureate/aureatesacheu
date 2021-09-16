@@ -1,17 +1,20 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import './homecss/homeFeaturedProduct.css'
 import { useParams } from 'react-router-dom'
 import { ShopContext } from '../../context/shopContext'
 //import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { Image } from "@chakra-ui/react";
+import Skeleton from 'react-loading-skeleton'
 
 const CollectionList = () => {
+  const [loading, setLoading] = useState(true);
   const { handle } = useParams()
   const { fetchAllCollectionProducts, collections } = useContext(ShopContext);
   useEffect(() => {
+    setTimeout(() => setLoading(false), 2000);
     fetchAllCollectionProducts(handle);
-  }, [fetchAllCollectionProducts,handle]);
+  }, [fetchAllCollectionProducts, handle]);
 
   /* const settings = {
     dots: true,
@@ -39,7 +42,7 @@ const CollectionList = () => {
 
   if (!collections) return <div>...Loading</div>
   return (
-    <div className="FeaturedProducts" style={{padding:'100px'}}>
+    <div className="FeaturedProducts" style={{ padding: '100px' }}>
       <div className="Container">
         {/* <h2>Collections</h2> */}
         <div className="product-listing">
@@ -49,7 +52,8 @@ const CollectionList = () => {
                 {/* {collection.variants[0].compareAtPrice > collection.variants[0].price ? (<span className="sale">SALE</span>) : (<span></span>)} */}
                 <div className="imageContainer">
                   <Link to={`/collections/${collection.handle}`} key={collection.id} aria-label={`Navigate to ${collection.title} collection page`}>
-                    <Image src={collection.image.src} alt="sacheu"/>
+                    {loading && <Skeleton height={306} />}
+                    {!loading && <Image src={collection.image.src} alt="sacheu" />}
                   </Link>
                 </div>
                 <div className="productInfo">
@@ -91,5 +95,4 @@ const CollectionList = () => {
     </div>
   )
 }
-
 export default CollectionList
