@@ -7,7 +7,6 @@ import './css/Collection.css'
 import AddToCart from '../components/Homepage/AddToCart'
 
 
-
 const ProductPage = () => {
   const [productQuantity, setProductQuantity] = useState(1)
     const { handle } = useParams()

@@ -73,7 +73,7 @@ const client = Client.buildClient({
     }
 
     fetchAllProducts = async() => {
-        const products = await client.product.fetchAll();
+        const products = await client.product.fetchAll(12);
         this.setState({ products: products})
         //console.log(products);
     }

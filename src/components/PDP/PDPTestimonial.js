@@ -17,9 +17,6 @@ const PDPTestimonial = () => {
         slidesToScroll: 1
     };
     return (
-
-
-
         <Slider {...settings}>
             {testimonial?.testimonials && testimonial?.testimonials.map((num, i) =>
                 <div className="sliderData" key={i}>
