@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../context/shopContext'
 import { Box, Image, Button } from '@chakra-ui/react'
@@ -15,15 +15,22 @@ import HomePromotionBannerSecond from '../components/Homepage/HomePromotionBanne
 import HomePromotionBannerFirst from '../components/Homepage/HomePromotionBannerFirst'
 import HomeCustomerLove from '../components/Homepage/HomeCustomerLove'
 import SkeletFunc from '../components/Homepage/SkeletFunc'
+import Skeleton from 'react-loading-skeleton'
+
 
 const Home = () => {
 
   const { fetchAllProducts, products, addItemToCheckout } = useContext(ShopContext)
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
+    setTimeout(() => setLoading(false), 2000);
     fetchAllProducts()
   }, [fetchAllProducts])
+<<<<<<< HEAD
   console.log('ddddddddddd',products)
+=======
+  console.log('HOMEPAGE-PRODUCTS', products)
+>>>>>>> b55a36bc2d137d76a586c445b414f61d95b3b393
 
   if (!products) return <div>...Loading</div>
 
@@ -40,22 +47,24 @@ const Home = () => {
         <div className="Container">
           <div className="productContainer">
             <div className="product-listing">
-              {products.map((product,i) => (
+              {products.map((product, i) => (
                 <>
                   <div className="itemBox" key={i}>
                     <div className="item">
                       {product.variants[0].compareAtPrice > product.variants[0].price ? (<span className="sale">SALE</span>) : (<span></span>)}
                       <div className="imageContainer">
                         <Link to={`/products/${product.handle}`} key={product.id} aria-label={`Navigate to ${product.title} product page`}>
-                          <Image src={product.images[0].src} />
+                          {loading && <Skeleton height={306} />}
+                          {!loading && <Image src={product.images[0].src} />}
                         </Link>
                       </div>
                       <div className="productInfo">
                         <Link to={`/products/${product.handle}`}>
-                          <h3 className="itemName">{product.title}</h3>
+                          {loading && <Skeleton height={30} />}
+                          {!loading && <h3 className="itemName">{product.title}</h3>}
                         </Link>
                         <p className="relatedProPrice">
-                          ${product.variants[0].price}
+                          {loading ? <Skeleton height={30} /> : `${product.variants[0].price}`}
                         </p>
                         <Button mt="3%" className="cartButton" onClick={() => addItemToCheckout(product.variants[0].id, 1)}>
                           Add To Cart
@@ -88,7 +97,7 @@ const Home = () => {
         <HomePromotionBannerSecond />
         <HomeCustomerLove />
         <HomePromotionBannerThird />
-        
+
         <CollectionList />
         <div className="featuredCollections">
           <div className="Container">
@@ -97,7 +106,7 @@ const Home = () => {
             <PDPRelatedProduct />
           </div>
         </div>
-        <SkeletFunc />
+        {/* <SkeletFunc /> */}
       </Box>
 
     </>
