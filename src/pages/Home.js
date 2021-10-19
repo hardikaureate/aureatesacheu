@@ -26,11 +26,8 @@ const Home = () => {
     setTimeout(() => setLoading(false), 2000);
     fetchAllProducts()
   }, [fetchAllProducts])
-<<<<<<< HEAD
-  console.log('ddddddddddd',products)
-=======
+
   console.log('HOMEPAGE-PRODUCTS', products)
->>>>>>> b55a36bc2d137d76a586c445b414f61d95b3b393
 
   if (!products) return <div>...Loading</div>
 
